@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<PropertyList> 
+
+<!-- ******* instruments for P51A *******-->
+
+ <model>
+  <path>Aircraft/DavePack/Instruments/RDMI/RDMI.xml</path>
+  <offsets>
+   <x-m>0.097</x-m>
+   <y-m>0.0</y-m>
+   <z-m>0.199</z-m>
+   <pitch-deg>-21</pitch-deg>
+  </offsets>
+ </model>
+
+ <!-- <model>
+  <path>Aircraft/DavePack/Instruments/RDMI/nav-select.xml</path>
+  <offsets>
+   <x-m>0.097</x-m>
+   <y-m>-0.07</y-m>
+   <z-m>0.201</z-m>
+   <pitch-deg>-21</pitch-deg>
+  </offsets>
+ </model>
+
+<model>
+  <path>Aircraft/P-51A/Models/panel/TACAN/tacan.xml</path>
+  <offsets>
+   <x-m>0.087</x-m>
+   <y-m>-0.15</y-m>
+   <z-m>0.241</z-m>
+   <pitch-deg>70</pitch-deg>
+  </offsets>
+ </model> -->
+
+<!-- attitude indicator -->
+
+ <model>
+  <path>Aircraft/P-51A/Models/panel/attitude/attitude.xml</path>
+  <offsets>
+   <x-m>0.002</x-m>
+   <y-m>0</y-m>
+   <z-m>0.425</z-m>
+   <pitch-deg>-19</pitch-deg>
+  </offsets>
+ </model>
+
+<!-- engine RPM -->
+
+ <model>
+  <path>Aircraft/P-51A/Models/panel/rpm/rpm.xml</path>
+  <offsets>
+   <x-m>-0.003</x-m>
+   <y-m>0.200</y-m>
+   <z-m>0.425</z-m>
+   <pitch-deg>-21</pitch-deg>
+  </offsets>
+ </model>
+
+ <model>
+  <path>Aircraft/P-51A/Models/panel/MAP/map-1.xml</path>
+  <offsets>
+   <x-m>0.014</x-m>
+   <y-m>0.175</y-m>
+   <z-m>0.369</z-m>
+   <pitch-deg>-21</pitch-deg>
+  </offsets>
+ </model>
+
+ <model>
+  <path>Aircraft/P-51A/Models/panel/FuelFlow/ff-1.xml</path>
+  <offsets>
+   <x-m>0.014</x-m>
+   <y-m>0.225</y-m>
+   <z-m>0.369</z-m>
+   <pitch-deg>-21</pitch-deg>
+  </offsets>
+ </model>
+
+<!-- airspeed indicator -->
+
+ <model>
+  <path>Aircraft/P-51A/Models/panel/asi/asi.xml</path>
+  <offsets>
+   <x-m>-0.004</x-m>
+   <y-m>-0.10</y-m>
+   <z-m>0.425</z-m>
+   <pitch-deg>-21</pitch-deg>
+  </offsets>
+ </model>
+
+<!-- altimeter -->
+
+ <model>
+  <path>Aircraft/P-51A/Models/panel/altitude/altimeter.xml</path>
+  <offsets>
+   <x-m>-0.004</x-m>
+   <y-m>0.102</y-m>
+   <z-m>0.425</z-m>
+   <pitch-deg>-21</pitch-deg>
+  </offsets>
+ </model>
+
+ <model>
+  <path>Aircraft/P-51A/Models/panel/vsi/vsi.xml</path>
+  <offsets>
+   <x-m>0.031</x-m>
+   <y-m>-0.102</y-m>
+   <z-m>0.325</z-m>
+   <pitch-deg>-21</pitch-deg>
+  </offsets>
+ </model>
+
+ <model>
+  <path>Aircraft/DavePack/Instruments/Flaps/flaps.xml</path>
+  <offsets>
+   <x-m>0.12</x-m>
+   <y-m>-0.17</y-m>
+   <z-m>0.49</z-m>
+   <pitch-deg>-21</pitch-deg>
+  </offsets>
+ </model>
+
+ <model>
+  <path>Aircraft/DavePack/Instruments/Gear/gear.xml</path>
+  <offsets>
+   <x-m>0.12</x-m>
+   <y-m>-0.235</y-m>
+   <z-m>0.485</z-m>
+   <pitch-deg>-21</pitch-deg>
+  </offsets>
+ </model>
+
+<!-- brake pressure gauges -->
+
+ <model>
+  <path>Aircraft/P-51A/Models/panel/brakes/triple.xml</path>
+  <offsets>
+   <x-m> 0.049</x-m>
+   <y-m>-0.218</y-m>
+   <z-m> 0.28</z-m>
+   <pitch-deg>-21</pitch-deg>
+  </offsets>
+ </model>
+
+ <model>
+  <path>Aircraft/DavePack/Instruments/PanelLights/lights.xml</path>
+  <offsets>
+   <x-m>-0.037</x-m>
+   <y-m>-0.225</y-m>
+   <z-m>0.545</z-m>
+   <pitch-deg>-21</pitch-deg>
+  </offsets>
+ </model>
+
+ <model>
+  <path>Aircraft/DavePack/Instruments/Fuel/fuel-total-3.xml</path>
+  <offsets>
+   <x-m>0.063</x-m>
+   <y-m> 0.256</y-m>
+   <z-m>0.24</z-m>
+   <pitch-deg>-21</pitch-deg>
+  </offsets>
+ </model>
+
+ <model>
+  <path>Aircraft/P-51A/Models/panel/clock/clock.xml</path>
+  <offsets>
+   <x-m>0.04</x-m>
+   <y-m>-0.147</y-m>
+   <z-m>0.26</z-m>
+   <pitch-deg>-21</pitch-deg>
+  </offsets>
+ </model>
+
+<!-- turn meter -->
+
+ <model>
+  <path>Aircraft/P-51A/Models/panel/turn/turn.xml</path>
+  <offsets>
+   <x-m>0.031</x-m>
+   <y-m>0</y-m>
+   <z-m>0.326</z-m>
+   <pitch-deg>-21</pitch-deg>
+  </offsets>
+ </model>
+
+
+ <model>
+  <path>Aircraft/P-51A/Models/panel/hdg/compass.xml</path>
+  <offsets>
+   <x-m>0.038</x-m>
+   <y-m> 0.095</y-m>
+   <z-m> 0.324</z-m>
+   <pitch-deg>-21</pitch-deg>
+  </offsets>
+ </model>
+
+</PropertyList>
